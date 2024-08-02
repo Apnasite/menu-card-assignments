@@ -1,0 +1,311 @@
+
+body {
+    background-color: #0a0a0a;
+    color: #f6f3f3;
+}
+
+.menu-list-group {
+  position: absolute;
+}
+
+.menu-list-group:nth-child(odd) {
+  width: 103mm;
+    height: auto;
+    border: #05050508 solid 1pt;
+    position: absolute;
+    left: 10mm;
+    top: 36mm;
+    font-weight: bold;
+    color: black;
+}
+
+.menu-list-group:nth-child(even) {
+   width: 100mm;
+    height: auto;
+    border: #09040400 solid 1pt;
+    position: absolute;
+    right: 4mm;
+    bottom: 38mm;
+    font-weight: bold;
+    color: black;
+}
+
+body .menu-wrapper {
+   border: 23pt solid white;
+    margin: auto;
+    overflow: hidden;
+    background: lightgray;
+    background-blend-mode: multiply, multiply;
+    left: auto;
+    top: auto;
+    width: 250mm;
+    height: 350mm;
+    position: relative;
+ }
+ 
+ 
+
+ 
+.box1
+ {
+  position: absolute;
+    left: 0mm;
+    width: 234mm;
+    top: 1mm;
+    height: 332mm;
+    color: white;
+    border-width: 1.3mm;
+    border-style: solid;
+    border-color: black;
+    z-index: 0;
+    border-radius: 21pt;
+ }
+.box4
+{
+  height: 44pt;
+    width: 139pt;
+    position: absolute;
+    right: 78pt;
+    bottom: 420pt;
+    background-color: rgb(254, 254, 251);
+
+}
+ 
+ 
+.box5
+{
+  height: 45pt;
+    width: 105pt;
+    position: absolute;
+    left: 107pt;
+    top: 103pt;
+    background-color: rgb(254, 254, 253);
+}
+ 
+ .restorent-name
+ {
+   color: purple;
+    font-weight: bolder;
+    font-size: 47pt;
+    font-style: normal;
+    position: relative;
+    left: 34pt;
+    top: 3pt;
+ }
+ 
+ .restorent-discription
+ {
+   color: purple;
+    font-weight: bolder;
+    font-size: 27pt;
+    font-style: normal;
+    position: relative;
+    left: 121pt;
+    top: -14pt;
+ }
+ 
+ .restaurant-add-content
+ {
+  width: 1000pt;
+    position: absolute;
+    top: -15pt;
+    left: -269pt;
+ }
+ 
+ .restaurant-phone
+ {
+     position: absolute;
+    top: 888pt;
+    left: 295pt;
+    font-size: 20pt;
+    color: black;
+
+ }
+ 
+ .restaurant-web
+ {
+  position: absolute;
+    top: 919pt;
+    left: 306pt;
+    font-size: 20pt;
+    color: black;
+ }
+ 
+ .restaurant-email
+ {
+  position: absolute;
+    top: 920pt;
+    left: 588pt;
+    font-size: 20pt;
+    color: black;
+ }
+
+ .menu-list-heading
+ {
+  padding-left: 30mm;
+    padding-bottom: 4mm;
+    font-weight: 900;
+    font-size: 29pt;
+    font-family: auto;
+    /* font-style: oblique; */
+    color: #030202;
+ }
+
+ 
+ 
+ 
+ .img1
+ {
+  transform: rotateZ(329deg); 
+  position: absolute;
+  top: -46pt;
+  right: -285pt;
+  /* size: 65pt; */
+  height: 256pt;
+  border-radius: 50%;
+  border: 7px solid red;
+  object-fit: cover;
+  filter: drop-shadow(0px 5px 17px #0A0909);
+       
+       
+ }
+
+ .img-hover {
+  top: 10mm;
+    width: 239pt;
+    left: 125mm;
+    height: 236pt;
+    transition: transform 6s linear;
+    position: absolute;
+ }
+.img-hover:hover {
+  animation: rotation 6s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+ .img2
+ {
+   transform: rotateY(45deg);
+    position: absolute;
+    top: 591pt;
+    right: 123pt;
+    /* size: 65pt; */
+    height: 35pt;
+ }
+
+
+ .img3
+ {
+ position: absolute;
+    top: 147pt;
+    left: -340pt;
+    /* size: 65pt; */
+    height: 208pt;
+    width: 213pt;
+    border-radius: 50%;
+    border: 2mm solid red;
+    object-fit: cover;
+	filter: drop-shadow(0px 5px 17px #0A0909);
+
+ }
+
+ .img-hover1 {
+  width: 271pt;
+  transition: transform 6s linear;
+}
+
+.img-hover1:hover {
+  animation: rotation 6s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+ 
+
+ .img4
+ {
+   height: 142pt;
+    width: 139pt;
+    position: absolute;
+    top: 99pt;
+    right: 36pt;
+ }
+
+ .img5
+ {
+   height: 223pt;
+    position: absolute;
+    top: 412pt;
+    right: 231pt;
+ }
+
+ .img6
+ {
+   transform: rotate(0deg);
+    height: 166pt;
+    position: absolute;
+    top: 491pt;
+    right: 8pt;
+ }
+
+ .img7
+ {
+   height: 153pt;
+    position: absolute;
+    top: 36pt;
+    right: 43pt;
+ }
+
+ .img8
+ {
+   height: 72pt;
+    position: absolute;
+    top: 120pt;
+    right: 209pt;
+ }
+
+ 
+
+
+
+
+ .menu-list1-price
+ {
+   line-height: 39pt;
+   font-weight: 800;
+    display: grid;
+    font-size: 21pt;
+    position: absolute;
+    top: 294pt;
+    left: 266pt;
+ }
+
+ 
+
+
+ .menu-list-item {
+  line-height: 118%;
+    display: flex;
+    /* align-content: space-evenly; */
+    justify-content: space-between;
+    font-size: xx-large;
+    align-items: center;
+ }
+ 
+	 
+	 
+
