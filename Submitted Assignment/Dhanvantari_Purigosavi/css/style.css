@@ -8,12 +8,14 @@ body {
 }
 
 .menu-list-group:nth-child(odd) {
-  width: 104mm;
-  height: 50mm;
-  border: #05050508 solid 1pt;
-  position: absolute;
-  left: 54mm;
-  top: 102mm;
+      width: 104mm;
+    height: 50mm;
+    border: #05050508 solid 1pt;
+    position: absolute;
+    left: 54mm;
+    font-size: 7pt;
+    top: 102mm;
+    font-family: serif;
 }
 
 .menu-list-group:nth-child(even) {
@@ -21,8 +23,10 @@ body {
   height: 50mm;
   border: #09040400 solid 1pt;
   position: absolute;
+font-size: 7pt;
   right: 82mm;
   bottom: 78mm;
+font-family: serif;
 }
 
 body .menu-wrapper {
@@ -40,20 +44,20 @@ body .menu-wrapper {
  
  
 .radius1{
-    position: absolute;
-    margin: 9mm;
-    border: 3px solid #a39c91;
-    padding: 78mm;
-    border-radius: 6mm;
-    padding-right: 133mm;
-    padding-bottom: 255mm;
-    padding-left: 89mm;
-    padding-top: 78mm;
-    background-color: #fffdf5;
-    top: -2mm;
-    left: -1mm;
-    height: -25mm;
-    width: -100mm;
+  position: absolute;
+  margin: 9mm;
+  border: 3px solid #a39c91;
+  padding: 78mm;
+  border-radius: 6mm;
+  padding-right: 140mm;
+  padding-bottom: 255mm;
+  padding-left: 89mm;
+  padding-top: 78mm;
+  background-color: #fffdf5;
+  top: -2mm;
+  left: -1mm;
+  height: -25mm;
+  width: -100mm;
 }
 .box4
 {
