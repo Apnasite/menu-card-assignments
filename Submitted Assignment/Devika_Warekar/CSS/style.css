@@ -1,0 +1,295 @@
+body {
+    background-color: #0a0a0a;
+    color: #f6f3f3;
+}
+
+.menu-list-group {
+  position: absolute;
+}
+
+.menu-list-group:nth-child(odd) {
+  width: 93mm;
+    height: auto;
+    border: #05050508 solid 1pt;
+    position: absolute;
+    left: 115mm;
+    top: 67mm;
+    font-size: 0px;
+    color: #030202;
+}
+
+.menu-list-group:nth-child(even) {
+ width: 93mm;
+    height: auto;
+    border: #09040400 solid 1pt;
+    position: relative;
+    right: -27mm;
+    bottom: -99mm;
+    font-size: 0;
+    color: #030202;
+}
+
+.menu-list-group2{
+ width: 93mm;
+    height: auto;
+    border: #05050508 solid 1pt;
+    position: absolute;
+    left: 115mm;
+    top: 242mm;
+    font-size: 0px;
+    color: #030202;
+}
+
+
+
+body .menu-wrapper {
+  border: 27pt solid white;
+    margin: auto;
+    overflow: hidden;
+    left: auto;
+    top: auto;
+    width: 250mm;
+    height: 350mm;
+    position: absolute;
+    background-color: #ffbc3a;
+ }
+ 
+ 
+
+ 
+.box1
+ {
+ width: 893px;
+    height: 1276px;
+    border: 15px solid #fff;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 3;
+    border-radius: 35px;
+    left: -3mm;
+    top: -4mm;
+ }
+
+.box2
+ {
+   height: 149pt;
+    width: 192pt;
+    position: absolute;
+    left: 513pt;
+    top: 249pt;
+    background-color: #FFEB3B;
+}
+
+.box3
+ {
+   height: 149pt;
+    width: 192pt;
+    position: absolute;
+    left: 0pt;
+    bottom: 88pt;
+    background-color: #FFEB3B;
+}
+
+
+ 
+.box4
+{
+  height: 44pt;
+    width: 139pt;
+    position: absolute;
+    right: 167pt;
+    bottom: 325pt;
+    background-color: rgb(254, 254, 251);
+}
+ 
+ 
+.box5
+{
+  height: 45pt;
+    width: 105pt;
+    position: absolute;
+    left: 58pt;
+    top: 242pt;
+    background-color: rgb(254, 254, 253);
+}
+ 
+ .borders
+ {
+   position: relative;
+    top: 123pt;
+    left: 75pt;
+    width: 51pt;
+    border-top: 3pt solid #FFEB3B;
+ }
+
+ .restorent-name
+ {
+  color: #382a16;
+    font-weight: bolder;
+    font-size: 47pt;
+    font-style: normal;
+    position: relative;
+    left: 50pt;
+    top: 9mm;
+ }
+ 
+ .restorent-discription
+ {
+  color: #382a16;
+    font-weight: bolder;
+    font-size: 30pt;
+    font-style: normal;
+    position: relative;
+    left: 236pt;
+    top: -10mm;
+ }
+ 
+ .restaurant-add-content
+ {
+  width: 1000pt;
+    position: absolute;
+    top: -60pt;
+    left: -264pt;
+    color: #402e1b;
+ }
+ 
+ .restaurant-phone
+ {
+  position: absolute;
+  top: 147pt;
+  left: 342pt;
+  font-size: 20pt;
+ }
+ 
+ .restaurant-web
+ {
+  position: absolute;
+  top: 178pt;
+  left: 342pt;
+  font-size: 20pt;
+ }
+ 
+ .restaurant-email
+ {
+  position: absolute;
+    top: 210pt;
+    left: 342pt;
+    font-size: 20pt;
+ }
+
+ .menu-list-heading
+ {
+  padding-left: 0mm;
+    padding-bottom: 4mm;
+    font-size: 29pt;
+    font-family: Bahnschrift Light Condensed;
+    color: #030202;
+ }
+
+ 
+ 
+ 
+ .img1
+ {
+  transform: rotateZ(329deg); 
+  position: absolute;
+  top: -46pt;
+  right: -285pt;
+  /* size: 65pt; */
+  height: 256pt;
+  border-radius: 50%;
+  border: 7px solid red;
+  object-fit: cover;
+       
+       
+ }
+
+ 
+ .img2
+ {
+   transform: rotateY(45deg);
+    position: absolute;
+    top: 591pt;
+    right: 123pt;
+    /* size: 65pt; */
+    height: 35pt;
+ }
+
+
+ .img3
+ {
+ height: 218pt;
+    position: absolute;
+    top: -18pt;
+    right: -16pt;
+
+ }
+
+ .img4
+ {
+  height: 218pt;
+    position: absolute;
+    top: -18pt;
+    right: -16pt;
+ }
+
+ .img5
+ {
+  height: 239pt;
+    position: absolute;
+    top: 126pt;
+    right: 397pt;
+ }
+
+ .img6
+ {
+  height: 258pt;
+    position: absolute;
+    top: 639pt;
+    right: 406pt;
+ }
+
+ .img7
+ {
+  height: 332pt;
+    position: absolute;
+    top: 325pt;
+    right: -12pt;
+ }
+
+ .img8
+ {
+   height: 65pt;
+    position: absolute;
+    top: 621pt;
+    right: 15pt;
+ }
+
+ 
+
+
+
+
+ .menu-list1-price
+ {
+   line-height: 39pt;
+   font-weight: 800;
+    display: grid;
+    font-size: 21pt;
+    position: absolute;
+    top: 294pt;
+    left: 266pt;
+ }
+
+ 
+
+
+ .menu-list-item {
+  line-height: 118%;
+    display: flex;
+    /* align-content: space-evenly; */
+    justify-content: space-between;
+    font-size: xx-large;
+    align-items: center;
+ }
+
