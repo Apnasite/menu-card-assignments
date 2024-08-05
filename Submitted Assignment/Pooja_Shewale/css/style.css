@@ -48,27 +48,82 @@ body .menu-wrapper {
  
 .box1
  {
-  position: absolute;
+ position: absolute;
     left: 0mm;
     width: 234mm;
-    top: 1mm;
-    height: 332mm;
+    top: 0mm;
+    height: 333mm;
     color: white;
     border-width: 1.3mm;
     border-style: solid;
     border-color: black;
-    z-index: 0;
-    border-radius: 21pt;
+    z-index: 15;
+    border-radius: 11pt;
+    overflow: hidden;
  }
-.box4
-{
-  height: 44pt;
-    width: 139pt;
+.dot {
+ height: 28px;
+    width: 29px;
+    margin-top: 12mm;
+    left: 117mm;
+    top: 84mm;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
     position: absolute;
-    right: 78pt;
-    bottom: 420pt;
-    background-color: rgb(254, 254, 251);
+    z-index: 0;
+}
+.dot1 {
+ height: 23px;
+    width: 23px;
+    margin-top: 16mm;
+    left: 135mm;
+    top: 162mm;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    z-index: 0;
 
+}
+.dot2 {
+    height: 28px;
+    width: 27px;
+    margin-top: 16mm;
+    left: 92mm;
+    top: 242mm;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    z-index: 0;
+
+}
+.line1{
+	height: 1mm;
+    width: 85mm;
+    margin-top: 119mm;
+    margin-left: 59mm;
+    background-color: black;
+    position: absolute;
+}
+.line2{
+	height: 1mm;
+    width: 85mm;
+    margin-top: 196mm;
+    margin-left: 138mm;
+    background-color: black;
+    position: absolute;
+   
+}
+.line3{
+	height: 1mm;
+    width: 141mm;
+    margin-top: 282mm;
+    margin-left: 16mm;
+    background-color: black;
+    position: absolute;
+   
 }
  
  
@@ -84,24 +139,28 @@ body .menu-wrapper {
  
  .restorent-name
  {
-   color: purple;
+   color:black;
     font-weight: bolder;
     font-size: 47pt;
+	 font-family: "Grey Qo", cursive;
+     font-weight: 400;
     font-style: normal;
     position: relative;
-    left: 34pt;
-    top: 3pt;
+    left: 81pt;
+    top: 24pt;
  }
  
  .restorent-discription
  {
-   color: purple;
+   color: white;
     font-weight: bolder;
     font-size: 27pt;
     font-style: normal;
     position: relative;
     left: 121pt;
-    top: -14pt;
+    top: 16pt;
+    background-color: black;
+    width: 58mm;
  }
  
  .restaurant-add-content
@@ -140,45 +199,56 @@ body .menu-wrapper {
     color: black;
  }
 
- .menu-list-heading
+ .menu-list-heading1
  {
-  padding-left: 30mm;
-    padding-bottom: 4mm;
-    font-weight: 900;
-    font-size: 29pt;
-    font-family: auto;
-    /* font-style: oblique; */
-    color: #030202;
+height: 10pt;
+    width: 138pt;
+    margin-top: 43mm;
+    margin-left: 51mm;
+    font-size: 26pt;
+    position: absolute;
+
+ }
+ .menu-list-heading2
+ {
+height: 10pt;
+    width: 186pt;
+    margin-top: 106mm;
+    margin-left: 116mm;
+    font-size: 24pt;
+    position: absolute;
+ }
+ .menu-list-heading3
+ {
+    height: 10pt;
+    width: 196pt;
+    margin-top: 185mm;
+    margin-left: 14mm;
+    font-size: 25pt;
+    position: absolute;
  }
 
- 
- 
- 
  .img1
  {
-  transform: rotateZ(329deg); 
+  
   position: absolute;
   top: -46pt;
   right: -285pt;
-  /* size: 65pt; */
   height: 256pt;
-  border-radius: 50%;
-  border: 7px solid red;
-  object-fit: cover;
-  filter: drop-shadow(0px 5px 17px #0A0909);
+ filter: drop-shadow(0px 5px 17px #0A0909);
        
        
  }
 
- .img-hover {
+ .img-hover1 {
   top: 10mm;
-    width: 239pt;
-    left: 125mm;
-    height: 236pt;
+    width: 261pt;
+    left: 152mm;
+    height: 241pt;
     transition: transform 6s linear;
     position: absolute;
  }
-.img-hover:hover {
+.img-hover1:hover {
   animation: rotation 6s infinite linear;
 }
 
@@ -192,36 +262,19 @@ body .menu-wrapper {
 }
  .img2
  {
-   transform: rotateY(45deg);
-    position: absolute;
-    top: 591pt;
-    right: 123pt;
-    /* size: 65pt; */
-    height: 35pt;
- }
-
-
- .img3
- {
- position: absolute;
-    top: 147pt;
-    left: -340pt;
-    /* size: 65pt; */
-    height: 208pt;
-    width: 213pt;
-    border-radius: 50%;
-    border: 2mm solid red;
-    object-fit: cover;
-	filter: drop-shadow(0px 5px 17px #0A0909);
-
- }
-
- .img-hover1 {
-  width: 271pt;
+  position: absolute;
+    top: 242pt;
+    top: 242pt;
+    left: -43pt;
+    height: 225pt;
+    filter: drop-shadow(0px 5px 17px #0A0909);
+	
+ }.img-hover2 {
+  width: 325pt;
   transition: transform 6s linear;
 }
 
-.img-hover1:hover {
+.img-hover2:hover {
   animation: rotation 6s infinite linear;
 }
 
@@ -234,57 +287,38 @@ body .menu-wrapper {
   }
 }
 
- 
 
- .img4
+ .img3
  {
-   height: 142pt;
-    width: 139pt;
-    position: absolute;
-    top: 99pt;
-    right: 36pt;
+position: absolute;
+    top: 7pt;
+    left: 378pt;
+    /* size: 65pt; */
+    height: 155pt;
+    filter: drop-shadow(0px 5px 17px #0A0909);
+
+
  }
 
- .img5
- {
-   height: 223pt;
-    position: absolute;
-    top: 412pt;
-    right: 231pt;
- }
+ .img-hover3 {
+  width: 271pt;
+  transition: transform 6s linear;
+}
 
- .img6
- {
-   transform: rotate(0deg);
-    height: 166pt;
-    position: absolute;
-    top: 491pt;
-    right: 8pt;
- }
+.img-hover3:hover {
+  animation: rotation 6s infinite linear;
+}
 
- .img7
- {
-   height: 153pt;
-    position: absolute;
-    top: 36pt;
-    right: 43pt;
- }
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}*/
 
- .img8
- {
-   height: 72pt;
-    position: absolute;
-    top: 120pt;
-    right: 209pt;
- }
-
- 
-
-
-
-
- .menu-list1-price
- {
+ .menu-list-item-price{
    line-height: 39pt;
    font-weight: 800;
     display: grid;
@@ -292,19 +326,35 @@ body .menu-wrapper {
     position: absolute;
     top: 294pt;
     left: 266pt;
+	background-color:white;
  }
 
- 
-
-
- .menu-list-item {
-  line-height: 118%;
-    display: flex;
-    /* align-content: space-evenly; */
-    justify-content: space-between;
-    font-size: xx-large;
-    align-items: center;
+  .menu-list-item1 {
+     height: 10pt;
+    width: 253pt;
+    margin-left: 38mm;
+    margin-top: 63mm;
+    font-size: 13pt;
+   line-height:1mm;
+    position: absolute;
  }
+ .menu-list-item2{
+    height: 10pt;
+    width: 202pt;
+    margin-left: 117mm;
+    margin-top: 137mm;
+    font-size: 10pt;
+    position: absolute;
+ }
+.menu-list-item3 {
+      height: 10pt;
+    width: 236pt;
+    margin-left: 4mm;
+    margin-top: 6mm;
+    font-size: 12pt;
+    position: absolute;
+}
+
  
 	 
 	 
