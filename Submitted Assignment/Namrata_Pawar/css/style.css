@@ -29,7 +29,7 @@ body {
 }
 
 body .menu-wrapper {
-    border: 6pt solid white;
+    border: 16pt solid white;
    margin: auto;
    overflow: hidden;
     background: linear-gradient(to bottom, rgb(43, 6, 6) 0%, rgb(57, 9, 9) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
@@ -151,10 +151,10 @@ body .menu-wrapper {
  {
   transform: rotateZ(329deg); 
   position: absolute;
-  top: 201pt;
+  top: 188pt;
   right: 342pt;
   /* size: 65pt; */
-  height: 265pt;
+  height: 260pt;
   border-radius: 50%;
   border: 7px solid red;
   object-fit: cover;
