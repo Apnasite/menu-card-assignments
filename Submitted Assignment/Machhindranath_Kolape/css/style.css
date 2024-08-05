@@ -41,7 +41,7 @@ body .menu-wrapper {
     top: 5mm;
     right: 5mm;
     width: 79mm;
-    height: 117mm;
+    height: 78mm;
 }
 .img5 {
     position: absolute;
@@ -70,7 +70,7 @@ body .menu-wrapper {
 .menu-wrapper .restaurant-add-content {
     position: absolute;
     bottom: 9mm;
-    left: 181pt;
+    left: 297pt;
     width: 48mm;
     height: 21mm;
     font-size: 8pt;
@@ -115,15 +115,22 @@ body .menu-wrapper {
 } 
 .menu-list-group:nth-child(even) {
     position: absolute;
-    top: 635pt;
+    top: 539pt;
     left: 81pt;
     width: 109mm;
     height: auto;
 }
+.menu-content .menu-list-group:last-child {
+    position: absolute;
+    top: 710pt;
+    left: 81pt;
+    width: 109mm;
+    height: auto;
+}  
 .menu-list-heading {
     padding-left: 6mm;
     padding-bottom: 2mm;
-    font-size: 50pt;
+    font-size: 30pt;
     font-family: heading;
     color: #FF8A00;
 }
@@ -133,7 +140,7 @@ body .menu-wrapper {
     width: 96mm;
 }
 .menu-list-item {
-    line-height: 8pt;
+    line-height: 3pt;
     display: flex;
     justify-content: space-between;
     font-size: small;
@@ -149,6 +156,30 @@ body .menu-wrapper {
     font-size: 21pt;
 }
 
+/* Content Img */
+.img1{
+    position: absolute;
+    top: -41mm;
+    right: -70mm;
+    width: 56pt;
+    height: 121pt;
+    transform: rotate(90deg);
+}     
+.img2 {
+  position: absolute;
+  top: -136mm;
+  right: -43mm;
+  width: 105pt;
+  height: 189pt;
+}
+.img3 {
+    position: absolute;
+    top: -228mm;
+    right: -131mm;
+    width: 70mm;
+    height: 141mm;
+}
+ 
 
 
 
