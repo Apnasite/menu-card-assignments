@@ -43,18 +43,6 @@ body {
 	font-family: "Permanent Marker", cursive;
 }
 
-/*.menu-list-group:nth-child(odd) {
-	
-    position: absolute;
-	font-size: 0pt;
-    width: 100mm;
-    height: auto;
-    border: #09040400 solid 1pt;
-    right: 95mm;
-    bottom: 201mm;
-	font-family: "Permanent Marker", cursive;
-}*/
-
 body .menu-wrapper {
     border: 6pt solid white;
    margin: auto;
@@ -67,9 +55,6 @@ body .menu-wrapper {
    height: 350mm;
    position: relative;
  }
- 
- 
-
  
 .box1
  {
