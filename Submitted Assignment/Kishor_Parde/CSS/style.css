@@ -1,0 +1,318 @@
+@font-face {
+  font-family: sub;
+  src: url(../Font/Generis\ Serif\ W04\ Medium.ttf);
+}
+
+body {
+    background-color: #0a0a0a;
+    color: #f6f3f3;
+    
+}
+
+.menu-list-group {
+  position: absolute;
+  font-family: sub;
+}
+
+.menu-list-group:nth-child(odd) {
+  width: 103mm;
+    height: auto;
+    border: #05050508 solid 1pt;
+    position: absolute;
+    left: 20mm;
+    top: 70mm;
+    font-family: sub;
+}
+
+.menu-list-group:nth-child(even) {
+  width: 100mm;
+  height: auto;
+  border: #09040400 solid 1pt;
+  position: absolute;
+  right: 9mm;
+  bottom: 20mm;
+  font-family: sub;
+}
+
+body .menu-wrapper {
+    border: 6pt solid white;
+   margin: auto;
+   overflow: hidden;
+    background: linear-gradient(to bottom, rgb(1, 0, 0) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+   background-blend-mode: multiply,multiply;
+   left: auto;
+   top: auto;
+   width: 250mm;
+   height: 350mm;
+   position: relative;
+ }
+ 
+ 
+
+ 
+.box1
+ {
+  height: 177pt;
+  width: 50pt;
+  position: absolute;
+  left: 0pt;
+  top: 41pt;
+  background-color: #FFEB3B;
+ }
+
+.box2
+ {
+   height: 149pt;
+    width: 192pt;
+    position: absolute;
+    left: 513pt;
+    top: 249pt;
+    background-color: #FFEB3B;
+}
+
+.box3
+ {
+   height: 149pt;
+    width: 192pt;
+    position: absolute;
+    left: 0pt;
+    bottom: 88pt;
+    background-color: #FFEB3B;
+}
+
+
+ 
+.box4
+{
+  height: 44pt;
+    width: 139pt;
+    position: absolute;
+    right: 167pt;
+    bottom: 325pt;
+    background-color: rgb(254, 254, 251);
+}
+ 
+ 
+.box5
+{
+  height: 45pt;
+    width: 105pt;
+    position: absolute;
+    left: 58pt;
+    top: 242pt;
+    background-color: rgb(254, 254, 253);
+}
+ 
+ .borders
+ {
+   position: relative;
+    top: 123pt;
+    left: 75pt;
+    width: 51pt;
+    border-top: 3pt solid #FFEB3B;
+ }
+
+ .restorent-name
+ {
+  color: #ffffff;
+  /* font-weight: bolder; */
+  font-size: 47pt;
+  font-style: normal;
+  position: relative;
+  left: 56pt;
+  top: 100pt;
+  font-family: sub;
+ }
+ 
+ .restorent-discription
+ {
+   color: #ffffff;
+    /* font-weight: bolder; */
+    font-size: 27pt;
+    font-style: normal;
+    position: relative;
+    left: 56pt;
+    top: 79pt;
+    font-family: sub;
+ }
+ 
+ .restaurant-add-content
+ {
+  width: 1000pt;
+  position: absolute;
+  bottom: 283pt;
+  left: -280pt;
+ }
+ 
+ .restaurant-phone
+ {
+  position: absolute;
+  top: 147pt;
+  left: 342pt;
+  font-size: 15pt;
+  font-family: sub;
+ }
+ 
+ .restaurant-web
+ {
+  position: absolute;
+  top: 178pt;
+  left: 342pt;
+  font-size: 15pt;
+  font-family: sub;
+ }
+ 
+ .restaurant-email
+ {
+  position: absolute;
+    top: 210pt;
+    left: 342pt;
+    font-size: 15pt;
+    font-family: sub;
+ }
+
+ .menu-list-heading
+ {
+  padding-left: 0mm;
+    padding-top: 7mm;
+    padding-bottom: 2mm;
+    font-size: 29pt;
+    font-family:sub;
+    /* font-style: oblique; */
+    color: #ffffff;
+
+ }
+
+ .img1
+ {
+  position: absolute;
+  top: -260pt;
+  right: -425pt;
+  width: 400pt;
+  height: 400pt;
+  transform: rotateZ(45deg);
+  object-fit: cover;
+ }
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+ .img2
+ {
+   transform: rotateY(45deg);
+    position: absolute;
+    top: 591pt;
+    right: 123pt;
+    /* size: 65pt; */
+    height: 35pt;
+ }
+
+
+ .img3
+ {
+  position: absolute;
+  top: 3pt;
+  right: 226pt;
+  /* size: 65pt; */
+  height: 338pt;
+  /* border-radius: 50%; */
+  /* border: 2mm solid red; */
+  object-fit: cover;
+  transform: rotateY(45deg);
+  width: 571pt;
+ }
+
+ .img-hover1 {
+  width: 271pt;
+  transition: transform 6s linear;
+}
+
+.img-hover1:hover {
+  animation: rotation 6s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+ 
+
+ .img4
+ {
+   height: 30pt;
+    position: absolute;
+    top: 142pt;
+    right: 167pt;
+ }
+
+ .img5
+ {
+   height: 30pt;
+    position: absolute;
+    top: 448pt;
+    right: 99pt;
+ }
+
+ .img6
+ {
+   transform: rotate(250deg);
+    height: 30pt;
+    position: absolute;
+    top: 453pt;
+    right: 128pt;
+ }
+
+ .img7
+ {
+   height: 153pt;
+    position: absolute;
+    top: 36pt;
+    right: 43pt;
+ }
+
+ .img8
+ {
+   height: 72pt;
+    position: absolute;
+    top: 120pt;
+    right: 209pt;
+ }
+
+ 
+
+
+
+
+ .menu-list1-price
+ {
+   line-height: 39pt;
+   font-weight: 800;
+    display: grid;
+    font-size: 21pt;
+    position: absolute;
+    top: 294pt;
+    left: 266pt;
+ }
+
+ 
+
+
+ .menu-list-item {
+  line-height: 118%;
+    display: flex;
+    /* align-content: space-evenly; */
+    justify-content: space-between;
+    font-size: xx-large;
+    align-items: center;
+ }
+
