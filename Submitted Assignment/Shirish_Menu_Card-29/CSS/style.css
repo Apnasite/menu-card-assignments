@@ -12,6 +12,8 @@ body {
   height: auto;
   border: #05050508 solid 1pt;
   position: absolute;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
   font-size: 6pt;
   line-height: 2;
   left: 32mm;
@@ -23,6 +25,8 @@ body {
   height: auto;
   border: #09040400 solid 1pt;
   position: absolute;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
   FONT-SIZE: 6PT;
   line-height: 2;
   right: 33mm;
@@ -207,10 +211,12 @@ body .menu-wrapper {
 
  .img7
  {
-  height: 219pt;
+  height: 176pt;
+  width: 211pt;
   position: absolute;
-  top: 593pt;
+  top: 622pt;
   right: 389pt;
+  border-radius: 50%;
  }
 
  .img8
