@@ -1,0 +1,280 @@
+body {
+    background-color: #0a0a0a;
+    color: #4b2815;
+}
+
+.menu-list-group {
+  position: absolute;
+}
+
+.menu-list-group:nth-child(odd) {
+    position: absolute;
+    top: 46mm;
+    left: 30mm;
+    width: 80mm;
+    height: auto;
+}
+
+.menu-list-group:nth-child(even) {
+    position: absolute;
+    top: 167mm;
+    left: 30mm;
+    width: 80mm;
+    height: auto;
+}
+
+.menu-list-group:last-child {
+  position: absolute;
+  top: 255mm;
+  left: 30mm;
+  width: 80mm;
+  height: auto;
+}
+
+body .menu-wrapper {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: 250mm;
+    height: 350mm;
+    border: 6pt solid white;
+    margin: auto;
+    overflow: hidden;
+    background: #ffefdc;
+    /* background: linear-gradient(to bottom, rgb(1, 0, 0) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898; 
+    background-blend-mode: multiply,multiply;*/
+ }
+ 
+.left-side {
+    position: absolute;
+    top: 0mm;
+    left: 0mm;
+    width: 13mm;
+    height: 350mm;
+    background: #ffa926;
+ }
+
+ .right-side {
+    position: absolute;
+    top: 0mm;
+    right: 0mm;
+    width: 60mm;
+    height: 350mm;
+    background: #4b2815;
+ }
+
+ .top-box {
+    position: absolute;
+    top: 0mm;
+    right: 20mm;
+    width: 80mm;
+    height: 40mm;
+    background: #ffa926;
+ }
+
+ .menu-box1 {
+    position: absolute;
+    top: 52mm;
+    left: 30mm;
+    width: 90mm;
+    height: 18mm;
+    background: #4b2815;
+    border-left: 9pt solid #ffa926;
+ }
+
+ .menu-box2 {
+  position: absolute;
+  top: 172mm;
+  left: 30mm;
+  width: 90mm;
+  height: 18mm;
+  background: #4b2815;
+  border-left: 9pt solid #ffa926;
+}
+
+.menu-box3 {
+  position: absolute;
+  top: 260mm;
+  left: 30mm;
+  width: 90mm;
+  height: 18mm;
+  background: #4b2815;
+  border-left: 9pt solid #ffa926;
+}
+
+.our-menu {
+  position: absolute;
+  top: 12mm;
+  left: 30mm;
+  font-size: 45pt;
+  font-family: "Gupter", serif;
+  font-weight: 700;
+  letter-spacing: 7pt;
+  /* border-bottom: 1pt solid #ffa926; */
+}
+
+.border {
+  position: absolute;
+  top: 37mm;
+  left: 30mm;
+  width: 110mm;
+  height: 3mm;
+  background: #ffa926;
+}
+
+ .restorent-name {
+    position: absolute;
+    top: 8mm;
+    right: 24mm;
+    font-size: 30pt;
+    font-family: "Gupter", serif;
+    font-weight: bolder;
+    letter-spacing: 4pt;
+    color: #4b2815;
+ }
+ 
+ .restorent-discription {
+    position: absolute;
+    top: 23mm;
+    right: 27mm;
+    font-size: 17pt;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: lighter;
+    letter-spacing: 5pt;
+    color: #4b2815;
+    
+ }
+
+ .restaurant-add-content
+ {
+    position: absolute;
+    top: -15pt;
+    left: -269pt;
+    width: 1000pt;
+ }
+ 
+ .restaurant-phone
+ {
+  position: absolute;
+  top: 15pt;
+  left: 350pt;
+  font-size: 20pt;
+ }
+ 
+ .restaurant-web
+ {
+  position: absolute;
+  top: 960pt;
+  left: 323pt;
+  font-size: 18pt;
+ }
+ 
+ .restaurant-email
+ {
+    position: absolute;
+    top: 960pt;
+    left: 555pt;
+    font-size: 18pt;
+ } 
+
+ .menu-list-heading
+ {
+    font-size: 35pt;
+    font-weight: 900;
+    font-family: auto;
+    color: white;
+    text-align: center;
+    line-height: 30mm;;
+ }
+ 
+ .menu-list-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20pt;
+  align-items: center;
+  line-height: 20pt;
+  color: #c28b6e;
+}
+
+.menu-list-item-price {
+  font-weight: bolder;
+  color: #4b2815;
+}
+
+.menu-list-image {
+  position: absolute;
+}
+
+ .coffee {
+  position: absolute;
+  top: -20mm;
+  left: 115mm;
+  height: 80mm;
+  width: 80mm;
+  border-radius: 50%;
+  border: 7px solid #ffefdc;
+  object-fit: cover;     
+ }
+
+/* 
+ .img-hover {
+  width: 257pt;
+  transition: transform 6s linear;
+}
+
+.img-hover:hover {
+  animation: rotation 6s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+ 
+ .tea
+ {
+    position: absolute;
+    top: -45mm;
+    left: 115mm;
+    height: 80mm;
+    width: 80mm;
+    border-radius: 50%;
+    border: 2mm solid white;
+    object-fit: cover;
+ }
+
+ /* .img-hover1 {
+  width: 271pt;
+  transition: transform 6s linear;
+}
+
+.img-hover1:hover {
+  animation: rotation 6s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.milk {
+    position: absolute;
+    top: -35mm;
+    left: 115mm;
+    height: 80mm;
+    width: 80mm;
+    border-radius: 50%;
+    border: 2mm solid white;
+    object-fit: cover;
+ }
+
+
+ 
