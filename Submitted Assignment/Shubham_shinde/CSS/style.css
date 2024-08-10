@@ -8,21 +8,21 @@ body {
 }
 
 .menu-list-group:nth-child(odd) {
-  width: 103mm;
-    height: auto;
-    border: #05050508 solid 1pt;
-    position: absolute;
-    right: 5mm;
-    top: 50mm;
+  width: 94mm;
+  height: auto;
+  border: #05050508 solid 1pt;
+  position: absolute;
+  right: 13mm;
+  top: 53mm;
 }
 
 .menu-list-group:nth-child(even) {
-  width: 100mm;
-    height: auto;
-    border: #09040400 solid 1pt;
-    position: absolute;
-    right: 9mm;
-    bottom: 25mm;
+  width: 96mm;
+  height: auto;
+  border: #09040400 solid 1pt;
+  position: absolute;
+  right: 13mm;
+  bottom: 18mm;
 }
 
 body .menu-wrapper {
@@ -57,11 +57,6 @@ body .menu-wrapper {
   right: 0mm;
  }
 
-
- .menu-background{
-
- }
- 
 
  
 /* .box1
@@ -120,46 +115,46 @@ body .menu-wrapper {
  .borders
  {
    position: relative;
-    top: 85pt;
-    left: 18pt;
-    width: 51pt;
-    border-top: 3pt solid #AAA2616E;
+   top: 87pt;
+   left: 119pt;
+   width: 110pt;
+   border-top: 1pt solid #AA616199;
  }
 
  .restorent-name
  {
-   color:#AAA2616E;
+   color:#AA616199;
     font-weight: bolder;
     font-size: 47pt;
     font-style: normal;
     position: relative;
-    left: 14pt;
-    top: -6pt;
+    left: 86pt;
+    top: 10pt;
  }
  
  .restorent-discription
  {
-   color:#AAA2616E;
+   color:#AA616199;
     font-weight: bolder;
     font-size: 27pt;
     font-style: normal;
     position: relative;
-    left: 16pt;
-    top: -23pt;
- }
+    left: 120pt;
+    top: 0pt;
+   }
  
  .restaurant-add-content
  {
-     width: 1000pt;
-    position: absolute;
-    top:-139pt;
-    left: 75pt;
+  width: 1000pt;
+  position: absolute;
+  top: -138pt;
+  left: 96pt;
   }
  
  .restaurant-phone
  {
   position: absolute;
-  top: 147pt;
+  top: 150pt;
   left: 342pt;
   font-size: 20pt;
  }
@@ -167,7 +162,7 @@ body .menu-wrapper {
  .restaurant-web
  {
   position: absolute;
-  top: 178pt;
+  top: 175pt;
   left: 342pt;
   font-size: 20pt;
  }
@@ -175,7 +170,7 @@ body .menu-wrapper {
  .restaurant-email
  {
   position: absolute;
-    top: 210pt;
+    top: 200pt;
     left: 342pt;
     font-size: 20pt;
  }
@@ -198,8 +193,8 @@ body .menu-wrapper {
  {
   transform: rotateZ(329deg); 
   position: absolute;
-  top: 90pt;
-  left: -118mm;
+  top: 74pt;
+  left: -121mm;
   size: 65pt;
   height: 256pt;
   border-radius: 50%;
@@ -326,7 +321,9 @@ body .menu-wrapper {
     top: 294pt;
     left: 266pt;
  }
-
+ .menu-list{
+  padding: 7mm 0mm 7mm 0mm;
+ }
  
 
 
@@ -335,7 +332,7 @@ body .menu-wrapper {
     display: flex;
     /* align-content: space-evenly; */
     justify-content: space-between;
-    font-size: xx-large;
+    font-size: 20pt;
     align-items: center;
  }
 
