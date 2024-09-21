@@ -10,7 +10,7 @@ position: absolute;
 .menu-list-group:nth-child(odd) {
   width: 70mm;
   height: auto;
-  border: #05050508 solid 1pt;
+  border: #05050508 solid 0.352778mm;
   position: absolute;
   left: 25mm;
   top: 80mm;
@@ -20,7 +20,7 @@ position: absolute;
 .menu-list-group:nth-child(even) {
   width: 72mm;
   height: auto;
-  border: #09040400 solid 1pt;
+  border: #09040400 solid 0.352778mm;
   position: absolute;
   right: 24mm;
   bottom: 120mm;
@@ -29,7 +29,7 @@ position: absolute;
 .menu-list-group1:nth-child(odd) {
   width: 70mm;
   height: auto;
-  border: #05050508 solid 1pt;
+  border: #05050508 solid 0.352778mm;
   position: absolute;
   left: -125mm;
   top: 0mm;
@@ -39,7 +39,7 @@ position: absolute;
 .menu-list-group2:nth-child(even) {
   width: 72mm;
   height: auto;
-  border: #09040400 solid 1pt;
+  border: #09040400 solid 0.352778mm;
   position: absolute;
   right: 0mm;
   bottom: 75mm;
@@ -48,7 +48,7 @@ position: absolute;
 
 
 body .menu-wrapper {
-  border: 6pt solid white;
+  border: 2.11667mm solid white;
  margin: auto;
  overflow: hidden;
   /* background: -gradient(to bottom,  0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
@@ -86,10 +86,10 @@ body .menu-wrapper {
 
 .restaurant-add-content
 {
-  width: 1000pt;
+  width: 352.778mm;
   position: absolute;
-  top: 676pt;
-  left: 78pt;
+  top: 238.478mm;
+  left: 27.5167;
   color:#FFEB3B;
 }
 
@@ -104,16 +104,16 @@ font-size: 20pt;
 .restaurant-web
 {
 position: absolute;
-top: 178pt;
-left: 342pt;
+top: 62.7944mm;
+left: 120.65mm;
 font-size: 20pt;
 }
 
 .restaurant-email
 {
 position: absolute;
-  top: 210pt;
-  left: 342pt;
+  top: 74.0833mm;
+  left: 120.65mm;
   font-size: 20pt;
 }
 
@@ -154,16 +154,16 @@ position: absolute;
 .img1
 {
   position: absolute;
-  top: 504pt;
-  right: 505pt;
-  width: 349pt;
-  height: 261pt;
+  top: 177.8mm;
+  right: 178.153mm;
+  width: 123.119mm;
+  height: 92.075mm;
   object-fit: cover;    
      
 }
 
 .img-hover {
-width: 257pt;
+width: 90.6639mm;
 transition: transform 6s linear;
 }
 
@@ -186,17 +186,17 @@ to {
   top: -208mm;
   right: -54mm;
   /* size: 65pt; */
-  height: 35pt;
+  height: 12.3472mm;
 }
 
 
 .img3
-{
+{ 
 position: absolute;
-  top: 55pt;
-  right: 352pt;
+  top: 19.4028mm;
+  right: 124.178mm;
   /* size: 65pt; */
-  height: 269pt;
+  height: 94.8972mm;
   border-radius: 50%;
   border: 2mm solid red;
   object-fit: cover;
@@ -204,7 +204,7 @@ position: absolute;
 }
 
 .img-hover1 {
-width: 271pt;
+width: 95.6028mm;
 transition: transform 6s linear;
 }
 
@@ -225,43 +225,43 @@ to {
 
 .img4
 {
- height: 30pt;
+ height: 10.5833mm;
   position: absolute;
-  top: 142pt;
-  right: 167pt;
+  top: 50.0944mm;
+  right: 58.9139mm;
 }
 
 .img5
 {
- height: 30pt;
+ height: 10.5833mm;
   position: absolute;
-  top: 448pt;
-  right: 99pt;
+  top: 158.044mm;
+  right: 34.925mm;
 }
 
 .img6
 {
  transform: rotate(250deg);
-  height: 30pt;
+  height: 10.5833mm;
   position: absolute;
-  top: 453pt;
-  right: 128pt;
+  top: 159.808mm;
+  right: 45.1556mm;
 }
 
 .img7
 {
- height: 153pt;
+ height: 53.975mm;
   position: absolute;
-  top: 36pt;
-  right: 43pt;
+  top: 12.7mm;
+  right: 15.2mm;
 }
 
 .img8
 {
- height: 72pt;
+ height: 25.4mm;
   position: absolute;
-  top: 120pt;
-  right: 209pt;
+  top: 42.3333mm;
+  right: 73.7306mm;
 }
 
 
@@ -271,13 +271,13 @@ to {
 
 .menu-list1-price
 {
- line-height: 39pt;
+ line-height: 13.75mm;
  font-weight: 800;
   display: grid;
   font-size: 21pt;
   position: absolute;
-  top: 20pt;
-  left: 266pt;  
+  top: 7mm;
+  left: 93.8389mm;  
 }
 
 
