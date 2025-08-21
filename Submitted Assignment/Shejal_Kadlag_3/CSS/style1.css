@@ -1,0 +1,100 @@
+body{
+  background-color: black;
+}
+
+.outer{
+width: 50%;
+margin: 15px auto;
+}
+
+.menu-card {  
+    width: 400px;  
+    background-color: #2a1a0a;  
+    color: white;  
+    font-family: Arial, sans-serif;  
+    padding: 20px;  
+    position: relative;  
+    border: 20px solid white;
+  }  
+    
+  .header {  
+    background-color: #ffa500;  
+    color: black;  
+    padding: 20px;  
+    border-radius:50% 0 0 50%;  
+    position: absolute;  
+    top: 0;  
+    left: 0;  
+    width: 34%;  
+    rotate: 180deg;
+    height: 210px;
+  }  
+
+  .info{
+    color: black;  
+    rotate: 180deg;
+  }
+
+  hr{
+    border-color:  black;
+  }
+    
+  .info h1 {
+    margin-top: 5pt;
+  }
+  .menu-content {  
+    margin-left: 200px;
+    padding-top: 10px;  
+    font-size: 10px;
+  }  
+
+  .menu-content1 {  
+    margin-right: 200px;
+    font-size: 10px;
+  }  
+    
+  .day-menu h3 {  
+    color: #ff4500;  
+    border-bottom: 1px solid #ff4500;  
+  }  
+    
+  .day-menu ul {  
+    list-style-type: none;  
+    padding: 0;  
+  }  
+    
+  .day-menu li {  
+    display: flex;  
+    justify-content: space-between;  
+    margin-bottom: 5px;  
+  }  
+    
+  .food-image {  
+    position: absolute;  
+    bottom: 0;  
+    right: 0;  
+    width: 210px;  
+    height: 210px;  
+    border-radius: 50%;  
+    overflow: hidden;  
+  }  
+    
+  .food-image img {  
+    width: 100%;  
+    height: 100%;  
+    object-fit: cover;  
+
+  }  
+
+
+  .image-text {  
+    position: absolute;  
+    bottom: 40px;  
+    right: 1px;  
+    background-color: #ffa500;  
+    color: black;  
+    padding: 5px;  
+    font-size: 0.8em;  
+    transform: rotate(-40deg);  
+  }
+  
