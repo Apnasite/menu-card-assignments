@@ -1,0 +1,131 @@
+@font-face{
+  font-family: menuHeading1;
+  src: url('../Font/Epilogue-Medium.ttf');
+}
+@media all{
+  body{
+    margin: 0;
+    padding: 0;
+    font-family: menuHeading1, sans-serif;
+    background-color:rgb(28, 29, 29);
+
+  }
+  .menu-wrapper{
+    width: 210mm;
+    height: 297mm;
+    background-image: url('../IMG/page_background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid rgb(187, 184, 184);
+    border-radius: 5mm;
+    margin: 30mm auto;
+  }
+  .menu-wrapper .menu-background{
+    width: 210mm;
+    height: 297mm;
+    position: absolute;
+    overflow: hidden;
+  }
+  .menu-wrapper .menu-background .topleftimg{
+    position: absolute;
+    left: 5mm;
+    top: 10mm;
+    width: 25mm;
+    height: 20mm;
+  }
+  .menu-wrapper .menu-background .toprightimg{ 
+    position: absolute;
+    top: 10mm;
+    left: 170mm;
+    width: 35mm;
+    height: 25mm;
+  }
+  .menu-wrapper .menu-background .glass1img{ 
+    position: absolute;
+    left: 125mm;
+    top: 105mm;
+    width: 65mm;
+    height: 100mm;
+  }
+  .menu-wrapper .menu-background .glass2img{ 
+    position: absolute;
+    left: 130mm;
+    top: 190mm;
+    width: 70mm;
+    height: 90mm;
+    z-index: 1;
+  }
+  .menu-wrapper .menu-background .bottomleftimg{ 
+    position: absolute;
+    left: -30mm;
+    top: 235mm;
+    width: 100mm;
+    height: 70mm;
+    z-index: 1;
+  }
+  .menu-wrapper .menu-background .lemonsimg{ 
+    position: absolute;
+    left: 60mm;
+    top: 243mm;
+    width: 80mm;
+    height: 40mm;
+    z-index: 1;
+  }
+  .menu-wrapper .menu-background .bottombackgroundimg{ 
+    position: absolute;
+    top: 256mm;
+    width: 210mm;
+    height: 40mm;
+    border-bottom-right-radius: 5mm;
+    border-bottom-left-radius: 5mm;
+    background-image: url('../IMG/bottom_background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: opacity(90%);
+  }
+  .menu-wrapper .menu-background img{ 
+    width: 100%;
+    height: 100%;
+  }
+  .menu-content{
+    width: 210mm;
+    height: 297mm;
+    position: absolute;
+  }
+  .menu-content .menu-content-head{
+    position: relative;
+    top: 15mm;
+    padding: 20mm auto;
+    text-align: center;
+    font-size: 15pt;
+    margin-bottom: 5mm;
+  }
+  .menu-content .menu-content-head .menu-name-details div{
+    font-size: 60pt;
+    line-height: 22mm;
+  }
+  .menu-name-details .menu-name{
+    color: rgb(44, 122, 44);
+  }
+  .menu-content .menu-content-subhead{
+    color: rgb(44, 122, 44);
+    font-size: 30pt;
+    position: relative;
+    top: 20mm;
+    left: 30mm;
+  }
+  .menu-list{
+    margin: 10mm;
+  }
+  .menu-list .menu-list-item{
+    position: relative;
+    margin-left: 10mm;
+    margin-right: 90mm;
+    top: 20mm;
+    left: 0mm;
+    font-size: 20pt;
+    line-height: 150%;
+    display: flex;
+    justify-content: space-between;
+  }
+}
