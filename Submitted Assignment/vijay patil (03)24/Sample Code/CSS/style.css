@@ -1,0 +1,234 @@
+body {
+    background-color: #0a0a0a;
+    color: #f6f3f3;
+}
+
+.menu-list-group {
+  position: absolute;
+}
+
+.menu-list-group:nth-child(odd) {
+  width: 103mm;
+    height: auto;
+    border: #05050508 solid 1pt;
+    position: absolute;
+    left: 20mm;
+    top: 83mm;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menu-list-group:nth-child(even) {
+  width: 100mm;
+    height: auto;
+    border: #09040400 solid 1pt;
+    position: absolute;
+    right: 9mm;
+    bottom: 45mm;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body .menu-wrapper {
+    border: 6pt solid white;
+   margin: auto;
+   overflow: hidden;
+    background: linear-gradient(to bottom, rgb(1, 0, 0) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+   background-blend-mode: multiply,multiply;
+   left: auto;
+   top: auto;
+   width: 250mm;
+   height: 350mm;
+   position: relative;
+   border-radius: 15px;
+   margin-top: 10px;
+ }
+ .end-shop-address{
+  position: absolute;
+  top: 226mm;
+  left: -122mm;
+  font-size: 15pt;
+  
+ }
+ 
+ 
+.logo{
+  left:4mm;
+  top:4mm;
+  width:1mm;
+  height:0mm;
+}
+
+.logo-img{
+  top:2mm;
+  left:2mm;
+  width: auto;
+	  height: 30mm;
+	  max-width: 60mm;
+}
+
+
+ .restorent-name
+ {
+   color: #f2f2f2;
+    font-weight: bolder;
+    font-size: 47pt;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    position: relative;
+    left: 73pt;
+    top: 17pt;
+    margin-top: 100px;
+ }
+ 
+ .restorent-discription
+ {
+   color: #f2f2f2;
+   font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 45pt;
+    font-style: normal;
+    position: relative;
+    left: 74pt;
+    top: 5pt;
+   
+ }
+ 
+ 
+ .menu-list-heading
+ {
+  padding-left: 3mm;
+    padding-bottom: 4mm;
+    font-weight: 900;
+    font-size: 29pt;
+    font-family:'Times New Roman', Times, serif;
+    /* font-style: oblique; */
+    color:silver;
+ }
+
+ 
+ 
+ 
+ .img1
+ {
+   
+  position: absolute;
+  top: -270pt;
+  right: -533pt;
+  /* size: 65pt; */
+  height: 335pt;
+  border-radius: 46%;
+  width:166mm;
+  object-fit: cover;
+   transform: rotate(-20deg);    
+       
+ }
+
+ 
+
+
+
+ .img2
+ {
+   transform: rotateY(45deg);
+    position: absolute;
+    top: 591pt;
+    right: 123pt;
+    /* size: 65pt; */
+    height: 35pt;
+ }
+
+
+ .img3
+ {
+  position: absolute;
+    top: 55pt;
+    right: 352pt;
+    /* size: 65pt; */
+    height: 269pt;
+    border-radius: 50%;
+    
+    object-fit: cover;
+
+ }
+
+ 
+
+ 
+
+ .img4
+ {
+   height: 30pt;
+    position: absolute;
+    top: 142pt;
+    right: 167pt;
+ }
+
+ .img5
+ {
+   height: 30pt;
+    position: absolute;
+    top: 448pt;
+    right: 99pt;
+ }
+
+ .img6
+ {
+   transform: rotate(250deg);
+    height: 30pt;
+    position: absolute;
+    top: 453pt;
+    right: 128pt;
+ }
+
+ .img7
+ {
+   height: 153pt;
+    position: absolute;
+    top: 36pt;
+    right: 43pt;
+ }
+
+ .img8
+ {
+   height: 72pt;
+    position: absolute;
+    top: 120pt;
+    right: 209pt;
+    font-family: 'Times New Roman', Times, serif;
+ }
+
+ 
+
+
+
+
+ .menu-list1-price
+ {
+   line-height: 39pt;
+   font-weight: 800;
+    display: grid;
+    font-size: 21pt;
+    position: absolute;
+    top: 294pt;
+    left: 266pt;
+    font-family: 'Times New Roman', Times, serif;
+ }
+
+ 
+
+
+ .menu-list-item {
+  line-height: 118%;
+    display: flex;
+    /* align-content: space-evenly; */
+    justify-content: space-between;
+    font-size: xx-large;
+    align-items: center;
+ }
+.shop-address{
+  position: absolute;
+  top: 126mm;
+  left: -122mm;
+  font-size: 15pt;
+  font-family:fantasy
+}
+
