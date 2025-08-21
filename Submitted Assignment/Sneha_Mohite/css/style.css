@@ -1,0 +1,512 @@
+body {
+    background-color: #0a0a0a;
+    color: #f6f3f3;
+	 
+
+	
+}
+
+.menu-list-group {
+  position: absolute;
+}
+
+.menu-list-group1 {
+    font-size: 0pt;
+    width: 90mm;
+    height: auto;
+    border: #05050508 solid 1pt;
+    position: absolute;
+    left: 72mm;
+    top: 248mm;
+    font-family: "Permanent Marker", cursive;
+}
+
+.menu-list-group:nth-child(odd) {
+	font-size: 0pt;
+    width: 103mm;
+    height: auto;
+    border: #05050508 solid 1pt;
+    position: absolute;
+    left: 33mm;
+    top: 59mm;
+	font-family: "Permanent Marker", cursive;
+}
+
+.menu-list-group:nth-child(even) {
+	font-size: 0pt;
+    width: 97mm;
+    height: auto;
+    border: #09040400 solid 1pt;
+    position: absolute;
+    right: 100mm;
+    bottom: 121mm;
+	font-family: "Permanent Marker", cursive;
+}
+
+body .menu-wrapper {
+    border: 6pt solid white;
+   margin: auto;
+   overflow: hidden;
+    background: linear-gradient(to bottom, rgb(1, 0, 0) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+   background-blend-mode: multiply,multiply;
+   left: auto;
+   top: 50mm;
+   width: 250mm;
+   height: 350mm;
+   position: relative;
+ }
+ 
+.box1
+ {
+height: 929pt;
+    width: 642pt;
+    position: absolute;
+    left: 29pt;
+    top: 29pt;
+    /* background-color: #FFEB3B; */
+    border-style: dotted;
+}
+
+
+.box2
+ {
+   height: 149pt;
+    width: 192pt;
+    position: absolute;
+    left: 513pt;
+    top: 249pt;
+    background-color: #FFEB3B;
+}
+
+.box3
+ {
+   height: 149pt;
+    width: 192pt;
+    position: absolute;
+    left: 0pt;
+    bottom: 117pt;
+    background-color: #FFEB3B;
+}
+
+
+ 
+.box4
+{
+  height: 44pt;
+    width: 191pt;
+    position: absolute;
+    right: 333pt;
+    bottom: 418pt;
+    background-color: rgb(254, 254, 251);
+}
+ 
+.box5
+{
+  height: 35pt;
+    width: 162pt;
+    position: absolute;
+    left: 61pt;
+    top: 245pt;
+    background-color: rgb(254, 254, 253);
+}
+.box6
+{
+  height: 35pt;
+    width: 162pt;
+    position: absolute;
+    left: 205pt;
+    top: 728pt;
+    background-color: rgb(254, 254, 253);
+}
+ 
+ .borders
+ {
+  position: absolute;
+    top: 104pt;
+    left: 75pt;
+    width: 502pt;
+    border-top: 0pt solid ;
+	 border-style: dotted;
+	 
+}
+ .line{
+	height: 2.5pt;
+    position: absolute;
+    left: 25pt;
+    width: 646.5pt;
+    bottom: 10pt;
+    background-color: white;
+}
+.line1{
+	height: 2.5pt;
+    position: absolute;
+    left: 42pt;
+    width: 605pt;
+    top: 18pt;
+    background-color: white;
+}
+.line2{
+	height: 2.5pt;
+    position: absolute;
+    left: -441pt;
+    width: 936pt;
+    top: 500pt;
+    background-color: white;
+    transform: rotate(90deg);
+}
+.line3{
+	height: 2.5pt;
+    position: absolute;
+    right: -441pt;
+    width: 935pt;
+    top: 501pt;
+    background-color: white;
+    transform: rotate(90deg);
+}
+.line4{
+	height: 2.5pt;
+    position: absolute;
+    right: 405pt;
+    width: 193pt;
+    top: 236pt;
+    background-color: #a57817;
+    transform: rotate(180deg);
+}
+.line5{
+	height: 2.5pt;
+    position: absolute;
+    right: 392pt;
+    width: 170pt;
+    top: 513pt;
+    background-color: #a57817;
+    transform: rotate(180deg);
+}
+.line6{
+	height: 2.5pt;
+    position: absolute;
+    right: 359pt;
+    width: 123pt;
+    top: 760pt;
+    background-color: #a57817;
+    transform: rotate(180deg);
+}
+ .restorent-name
+ {
+	color: white;
+    font-weight: bolder;
+    font-size: 27pt;
+    font-style: normal;
+    position: absolute;
+    left: 301pt;
+    top: 33pt;
+	font-family: "Permanent Marker", cursive;
+	
+}
+ 
+ .restorent-discription
+ {
+	color: white;
+    font-weight: 900;
+    font-size: 80pt;
+    font-style: normal;
+    position: absolute;
+    left: 206pt;
+    top: 2pt;
+	font-family:  "Kalam", cursive;
+ }
+ 
+ .restorent-discription::first-letter{
+	font-size:150px;
+ }
+ 
+ .restaurant-add-content
+ {
+  width: 1000pt;
+    position: absolute;
+    top: -15pt;
+    left: -269pt;
+ }
+ 
+ .restaurant-phone
+ {
+  position: absolute;
+  top: 150pt;
+  left: 326pt;
+  font-size: 17pt;
+ }
+ 
+ .restaurant-web
+ {
+  position: absolute;
+  top: 147pt;
+  left: 495pt;
+  font-size: 17pt;
+ }
+ 
+ .restaurant-email
+ {
+  position: absolute;
+    top: 147pt;
+    left: 708pt;
+    font-size: 17pt;
+ }
+
+ .menu-list-heading
+ {
+  padding-left: 3mm;
+    padding-bottom: 3mm;
+    font-weight: 900;
+    font-size: 29pt;
+    font-family: "Courgette", cursive;
+    color: white;
+ }
+ .menu-list-heading::first-letter
+ {
+  font-size:45pt;
+ }
+ 
+ .menu-list-heading1
+ {
+    padding-left: 4mm;
+    padding-bottom: 0mm;
+    font-weight: 900;
+    font-size: 30pt;
+    font-family: "Courgette", cursive;
+    color: white;
+ }
+ .menu-list-heading1::first-letter
+ {
+  font-size:45pt;
+ }
+ 
+
+
+.img1
+ {
+ 
+    position: absolute;
+    top: 222pt;
+    right: -285pt;
+    height: 253pt;
+}
+
+ .img-hover {
+  width: 257pt;
+  transition: transform 6s linear;
+}
+
+.img-hover:hover {
+  animation: rotation 6s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+ .img2
+ {
+  transform: rotateY(45deg);
+    position: absolute;
+    top: 525pt;
+    right: 123pt;
+    /* size: 65pt; */
+    height: 173pt;
+}
+
+ .img3
+ {
+	width: 210pt;
+    position: absolute;
+    top: -37pt;
+    right: 259pt;
+    /* size: 65pt; */
+    height: 234pt;
+    border-radius: 50%;
+}
+
+ .img-hover1 {
+  width: 271pt;
+  transition: transform 6s linear;
+}
+
+.img-hover1:hover {
+  animation: rotation 6s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+ 
+
+ .img4
+ {
+	    transform: rotate(11deg);
+    z-index: 1;
+    width: 307pt;
+    border-radius: 50%;
+    height: 233pt;
+    position: absolute;
+    top: 142pt;
+    margin-left: 138mm;
+ }
+.img-hover2 {
+  width: 271pt;
+  transition: transform 6s linear;
+}
+
+.img-hover2:hover {
+  animation: rotation 6s infinite linear;
+}
+
+ .img5
+ {
+  width: 328pt;
+    height: 298pt;
+    position: absolute;
+    top: 647pt;
+    right: -41pt;
+}
+
+ .img6
+ {
+	width: 289pt;
+    height: 243pt;
+    position: absolute;
+    top: 690pt;
+    right: 440pt;
+}
+
+ .img7
+ {
+   height: 153pt;
+    position: absolute;
+    top: 67pt;
+    right: 43pt;
+ }
+
+ .img8
+ {
+   height: 72pt;
+    position: absolute;
+    top: 120pt;
+    right: 209pt;
+ }
+ .img9
+ {
+	position: absolute;
+    top: 23pt;
+    height: 101pt;
+    right: 491pt;
+}
+ .img10
+ {
+	position: absolute;
+    top: 23pt;
+    height: 101pt;
+    right: 150pt;
+}
+.dot{
+	font-size: 42pt;
+    left: 34pt;
+    width: 538pt;
+    position: absolute;
+    top: 914pt;
+    height: 454pt;
+}
+
+.dot1{
+	font-size: 42pt;
+    left: -423pt;
+    width: 538pt;
+    position: absolute;
+    top: 58pt;
+    height: 480pt;
+    transform: rotate(90deg);
+}
+.dot2{
+	font-size: 42pt;
+    left: 195pt;
+    width: 538pt;
+    position: absolute;
+    top: 73pt;
+    height: 480pt;
+    transform: rotate(90deg);
+}
+.dot3{
+	font-size: 42pt;
+    left: 59pt;
+    width: 359pt;
+    position: absolute;
+    top: 78pt;
+    height: 175pt;
+}
+.dot4{
+	font-size: 197pt;
+    position: absolute;
+    left: 7pt;
+    top: -200pt;
+    height: 100pt;
+}
+.dot5{
+	font-size: 197pt;
+    position: absolute;
+    right: 12pt;
+    top: -198pt;
+    height: 100pt;
+}
+
+ .menu-list1-price
+ {
+   line-height: 39pt;
+   font-weight: 800;
+    display: grid;
+    font-size: 21pt;
+    position: absolute;
+    top: 294pt;
+    left: 266pt;
+ }
+ 
+ .menu-list1-price1
+ {
+   line-height: 39pt;
+   font-weight: 800;
+    display: grid;
+    font-size: 21pt;
+    position: absolute;
+    top: 294pt;
+    left: 266pt;
+ }
+
+ 
+
+
+ .menu-list-item {
+  line-height: 118%;
+    display: flex;
+    /* align-content: space-evenly; */
+    justify-content: space-between;
+    font-size: xx-large;
+    align-items: center;
+	top:20mm;
+ }
+ 
+ .menu-list-item1 {
+  line-height: 118%;
+    display: flex;
+    /* align-content: space-evenly; */
+    justify-content: space-between;
+    font-size: xx-large;
+    align-items: center;
+	top:20mm;
+ }
+
