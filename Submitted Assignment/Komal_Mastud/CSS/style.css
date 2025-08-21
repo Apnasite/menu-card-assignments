@@ -1,0 +1,380 @@
+body {
+  background-color: #0a0a0a;
+  color: #f6f3f3;
+  position: absolute;
+}
+
+.menu-list-group {
+  position: absolute;
+}
+
+.menu-list-group:nth-child(odd) {
+  width: 101mm;
+  height: -4mm;
+  border: #05050508 solid 1pt;
+  position: absolute;
+  left: 139mm;
+  line-height: 1mm;
+  top: -184mm;
+}
+
+.menu-list-group:nth-child(even) {
+  width: 100mm;
+  height: auto;
+  border: #09040400 solid 1pt;
+  position: absolute;
+  right: 12mm;
+  bottom: 85mm;
+  line-height: 2mm;
+}
+
+body .menu-wrapper {
+  border: 6pt solid #fffdd7;
+  margin: auto;
+  overflow: hidden;
+  background: #fffdd7;
+  background-blend-mode: multiply, multiply;
+  left: auto;
+  top: auto;
+  width: 250mm;
+  height: 350mm;
+  position: relative;
+}
+
+.menu-content {
+  position: relative;
+}
+
+.box1 {
+  border: 11px solid #eab729;
+  border-radius: 41px;
+  /* padding: 20px; */
+  width: 133mm;
+  top: 78mm;
+  height: 112mm;
+  box-shadow: 2px 2px 5px rgba(246, 244, 244, 0.3);
+  left: 100mm;
+  position: absolute;
+}
+.box6 {
+  width: 71mm;
+  top: 70mm;
+  height: 14mm;
+  box-shadow: 2px 2px 5px rgba(246, 244, 244, 0.3);
+  left: 141mm;
+  position: absolute;
+  background-color: #fffdd7;
+}
+
+.box7 {
+  border-radius: 41px;
+  width: 55mm;
+  top: 190mm;
+  height: 25mm;
+  box-shadow: 2px 2px 5px rgba(246, 244, 244, 0.3);
+  left: 135mm;
+  position: absolute;
+  background-color: #fffdd7;
+}
+
+.box2 {
+  border: 4px solid #eab729;
+  border-radius: 42px;
+  padding: 20px;
+  width: 123mm;
+  top: 83mm;
+  height: 101mm;
+  box-shadow: 2px 2px 5px rgba(246, 244, 244, 0.3);
+  left: 105mm;
+  position: absolute;
+}
+
+.box3 {
+  border: 11px solid #eab729;
+  border-radius: 41px;
+  /* padding: 20px; */
+  width: 133mm;
+  top: 199mm;
+  height: 116mm;
+  box-shadow: 2px 2px 5px rgba(246, 244, 244, 0.3);
+  left: 99mm;
+  position: absolute;
+}
+
+.box4 {
+  border: 4px solid #eab729;
+  border-radius: 42px;
+  /* padding: 20px; */
+  width: 121mm;
+  top: 203mm;
+  height: 106mm;
+  /* box-shadow: 2px 2px 5px rgba(246, 244, 244, 0.3); */
+  left: 105mm;
+  position: absolute;
+}
+.border1 {
+  position: absolute;
+  top: 42mm;
+  left: 189mm;
+  width: 18mm;
+  height: 260mm;
+  border-top: 3px solid #ffeb3b;
+}
+
+.border2 {
+  position: absolute;
+  top: 42mm;
+  left: 129mm;
+  width: 18mm;
+  height: 260mm;
+  border-top: 3px solid #ffeb3b;
+}
+
+.restorent-name {
+  color: #4c7701;
+  font-weight: bold;
+  font-size: 15mm;
+  font-style: normal;
+  position: absolute;
+  left: 141mm;
+  top: -331mm;
+}
+
+.restorent-discription {
+  color: #edc34c;
+  font-weight: lighter;
+  font-size: 18mm;
+  font-style: normal;
+  position: relative;
+  left: 152mm;
+  top: -300mm;
+}
+
+.restaurant-add-content {
+  position: absolute;
+  height: 350mm;
+  width: 250mm;
+  left: -83mm;
+  top: -10mm;
+  color: black;
+}
+
+.bi-telephone {
+  position: absolute;
+  height: 20mm;
+  width: 20mm;
+  top: 8mm;
+  left: 0mm;
+}
+.org-phone-number {
+  font-weight: normal;
+  font-family: "Roboto Slab", serif;
+  font-size: 5mm;
+  position: absolute;
+  width: 39mm;
+  top: 9mm;
+  left: 8mm;
+}
+
+.org-phone-lable {
+  font-weight: normal;
+  font-family: "Roboto Slab", serif;
+  font-size: 5mm;
+  position: absolute;
+  width: 39mm;
+  top: 9mm;
+  left: 8mm;
+}
+
+.bi-envelope {
+  position: absolute;
+  height: 20mm;
+  width: 20mm;
+  top: 0mm;
+  left: -9mm;
+}
+
+.restaurant-phone {
+  position: absolute;
+  top: 8mm;
+  left: 284mm;
+  font-size: 6mm;
+  height: 20mm;
+  width: 20mm;
+}
+
+.restaurant-web {
+  position: absolute;
+  top: 22mm;
+  left: 266mm;
+  font-size: 6mm;
+}
+
+.bi-search {
+  position: absolute;
+  height: 20mm;
+  width: 20mm;
+  top: 0mm;
+  left: -9mm;
+}
+.restaurant-email {
+  position: absolute;
+  top: 28mm;
+  left: 260mm;
+  font-size: 6mm;
+}
+.drinks {
+  font-size: 8mm;
+  top: 36mm;
+  left: 154mm;
+  position: absolute;
+  color: #eab729;
+}
+
+.menu-list-heading {
+  /* padding-left: 3mm; */
+  /* padding-bottom: 4mm; */
+  font-size: 30pt;
+  font-family: auto;
+  /* font-style: oblique; */
+  position: absolute;
+  top: -86mm;
+  left: 7mm;
+  line-height: 2mm;
+  color: #eab729;
+  letter-spacing: 1mm;
+}
+
+.img1 {
+  transform: rotateZ(329deg);
+  position: absolute;
+  top: -46pt;
+  right: -285pt;
+  /* size: 65pt; */
+  height: 256pt;
+  border-radius: 50%;
+  border: 7px solid red;
+  object-fit: cover;
+}
+
+.img-hover {
+  width: 257pt;
+  transition: transform 6s linear;
+}
+
+.img-hover:hover {
+  animation: rotation 6s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.img2 {
+  transform: rotateY(45deg);
+  position: absolute;
+  top: 591pt;
+  right: 123pt;
+  /* size: 65pt; */
+  height: 35pt;
+}
+
+.img3 {
+  position: absolute;
+  top: 55pt;
+  right: 352pt;
+  /* size: 65pt; */
+  height: 269pt;
+  border-radius: 50%;
+  border: 2mm solid red;
+  object-fit: cover;
+}
+
+.img-hover1 {
+  width: 271pt;
+  transition: transform 6s linear;
+}
+
+.img-hover1:hover {
+  animation: rotation 6s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.img4 {
+  height: 155mm;
+  position: absolute;
+  top: 1mm;
+  right: 167pt;
+  left: -3mm;
+  width: 131mm;
+}
+
+.img5 {
+  height: 47mm;
+  width: 150mm;
+  position: absolute;
+  top: 304mm;
+  right: -2mm;
+}
+
+.img6 {
+  height: 206mm;
+  position: absolute;
+  top: 146mm;
+  right: 139mm;
+}
+
+.img7 {
+  height: 15mm;
+  position: absolute;
+  top: 55mm;
+  right: 17mm;
+}
+
+.img8 {
+  height: 15mm;
+  position: absolute;
+  top: 54mm;
+  right: 99mm;
+}
+
+.menu-list1-price {
+  line-height: 39pt;
+  font-weight: 800;
+  display: grid;
+  font-size: 21pt;
+  position: absolute;
+  top: 294pt;
+  left: 266pt;
+}
+
+.menu-list-item {
+  line-height: 118%;
+  display: flex;
+  /* align-content: space-evenly; */
+  justify-content: space-between;
+  font-size: xx-large;
+  align-items: center;
+  color: black;
+}
+
+.menu-list {
+  width: 100mm;
+  height: auto;
+  border: #09040400 solid 1pt;
+  position: absolute;
+  right: 19mm;
+  bottom: -14mm;
+}
