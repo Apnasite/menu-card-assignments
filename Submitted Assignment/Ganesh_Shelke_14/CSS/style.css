@@ -1,0 +1,51 @@
+
+
+.menu-card {
+  background: black url('path_to_your_background_image.jpg') no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  width: 540px;
+  padding: 20px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  height: 700px;
+  border: 10px solid white;
+}
+
+.menu-title {
+  font-size: 80px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+  background-color: black; /* For the yellow text background */
+  color: yellow;
+  display: inline-block;
+  padding: 10px 20px;
+  transform: rotate(-8deg);
+}
+
+.menu-section h2 {
+  font-size: 22px;
+  border-bottom: 2px solid white; /* For the yellow underline */
+  padding-bottom: 5px;
+  background-color: rgb(249, 249, 107);
+  color: black;
+}
+
+.menu-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu-section ul li {
+  padding: 10px 0;
+  font-size: 18px;
+}
+
+/* New styles for specific sections */
+.breakfast-menu h2 {
+  color: white; /* Change the color to white for the breakfast menu header */
+}
+body{
+  background-color: rgb(59, 56, 56);
+  margin-left: 600px;
+}
